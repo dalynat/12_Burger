@@ -1,0 +1,56 @@
+html {
+	 background-color: slategray;
+	 position: relative;
+	 min-height: 100%;
+ }
+ .row {
+	display: flex;
+  }
+  
+  .column {
+	flex: 50%;
+	text-align: center;
+  }
+
+ #burgerPic {
+ 	display: block;
+	margin: auto;
+	width: 300px;
+ }
+
+ h1 {
+ 	text-align: center;
+ 	margin: 50px;
+ }
+
+
+
+ .EatMe:hover {
+ 	background-color: cyan;
+ }
+
+
+
+ h2 {
+  	text-align: center;
+ 	margin: 50px;
+ }
+
+ .Container {
+ 	background-color: cyan;
+ }
+
+ .addBurger {
+ 	font-size: 20px;
+ 	text-align: center;
+ 	border-radius: 25px;
+ 	margin: 0;
+ 	padding: 10px;
+ 	background-color: lightblue;
+ 	border: none;
+ }
+
+.addBurger:active {
+	background-color: cyan;
+}
+
